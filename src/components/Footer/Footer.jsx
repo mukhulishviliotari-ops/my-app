@@ -23,7 +23,7 @@ function Footer({ navigationData = [] }) {
         </div>
         <div className={styles.footerBottom}>
           <span>Learning, building, and sharing code.</span>
-          <span>&copy; {new Date().getFullYear()} CodeIT</span>
+          <span>&copy; CodeIT</span>
         </div>
       </div>
     </footer>
