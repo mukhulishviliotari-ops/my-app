@@ -1,0 +1,44 @@
+.headerCont {
+  padding: 15px 20px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navCont {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.headerCont a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.headerCont a:hover,
+.headerCont a:focus-visible {
+  text-decoration: underline;
+}
+
+.navItem{
+  text-decoration: none;
+  color:black;
+}
+.logo {
+  font-size: 25px;
+}
