@@ -39,8 +39,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
-         <Header navigationData={LinksArray}/> 
-        {children}</body>
+        <Header navigationData={LinksArray} />
+        {children}
+        <Footer navigationData={LinksArray} />
+      </body>
     </html>
   );
 }
