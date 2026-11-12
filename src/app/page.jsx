@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-
+import test from "./test/page.jsx";
 
 export default function Home() {
 
@@ -8,7 +8,7 @@ export default function Home() {
   const headerVisible = false;
   return (
     <>
-    
+     <test />
       <main className={styles.main}>
         {/* <h1 className={styles.title}>gamarjon {name || "unknow"}</h1> */}
         {/* <h2>{isloaded && "mtavari gverdi chaitvirta"}</h2> */}
