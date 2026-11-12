@@ -1,0 +1,58 @@
+.todoCont {
+	display: flex;
+	align-items: stretch;
+	gap: 12px;
+	width: min(100% - 40px, 720px);
+	margin: 72px auto;
+}
+
+.todoCont input {
+	flex: 1;
+	min-width: 0;
+	padding: 13px 15px;
+	border: 1px solid #9aa8a2;
+	border-radius: 4px;
+	background: #fff;
+	color: #17231e;
+	font: inherit;
+}
+
+.todoCont input:focus-visible {
+	border-color: #167451;
+	outline: 3px solid rgb(22 116 81 / 20%);
+	outline-offset: 1px;
+}
+
+.todoCont button {
+	padding: 13px 20px;
+	border: 1px solid #145b41;
+	border-radius: 4px;
+	background: #176b4c;
+	color: #fff;
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.todoCont button:hover {
+	border-color: #104a34;
+	background: #104f38;
+}
+
+.todoCont button:focus-visible {
+	outline: 3px solid rgb(22 116 81 / 28%);
+	outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+	.todoCont {
+		width: calc(100% - 32px);
+		margin: 40px auto;
+		gap: 8px;
+	}
+
+	.todoCont button {
+		padding-inline: 14px;
+	}
+}
